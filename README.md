@@ -85,10 +85,36 @@ By developing the pipeline in Nextflow, MONTY will be able to be executed on hig
 * Provision of MONTY as an online service via AWS and/or Seqera Platform
 
 ## Credits
-
+### Code and inspiration
 MONTY was originally written by Dr Charles S.P. Foster.
 
 We thank the maintainers and developers of [nf-core](https://nf-co.re). The development of some pipeline sections and decisions has been inspired by, and overlaps with, several excellent [nf-core](https://nf-co.re) workflows, such as [nf-core/mag](https://github.com/nf-core/mag) and [nf-core/phageannotator](https://github.com/nf-core/phageannotator/tree/dev). By design, these workflows are meant to be run sequentially, e.g. "`nf-core/mag` --> `nf-core/phageannotator` --> `nf-core/differentialabundance` --> ...", lending into the strength of the interoperability of pipelines within the `nf-core` framework. However, in our case we wished to have an end-to-end pipeline with a focus on viruses and implementing additional analytical tools and parameter values (both default values and possible values).
+
+### Funding
+Development of the MONTY pipeline is supported in part by the following organisations:
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/images/nhmrc.png">
+  <img alt="Logo for NHMRC" src="docs/images/nhmrc.png" width="200">
+</picture>
+
+* NHMRC IDEAS grant (2021404)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/images/jdrf.png">
+  <img alt="Logo for NHMRC" src="docs/images/jdrf.png" width="200">
+</picture>
+
+
+* JDRF Career Development award (5-CDA-2023-1332-S-B)
+* JDRF Australia EMCR Science Accelerator Award (2-SRA-2021-1083-M-B)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/images/helmsley.png">
+  <img alt="Logo for NHMRC" src="docs/images/helmsley.png" width="200">
+</picture>
+
+* Helmsley Charitable Trust
 
 ## Suggestions?
 
